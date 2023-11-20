@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+h1{
+    color: #093708;
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    color: #093708;
+
+}
+body{
+    background-color: #D08F4D;
+
+    font-family: 'Irish Grover', cursive;
+
+}
+.card img{
+    height: 257px;
+}
+
+.card-title{
+    text-align: center;
+    color: #093708;
+    font-variant: small-caps;
+}
+.card{
+    border: #093708 2px solid;
+
+}
+nav{
+   background-color:#964B00;
+
+}
+.banner{
+    background-image: url(../img/banner.jpg);
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    
+}
+footer{
+    background-color: #964B00;
+    height: 150px;
+    padding-top: 20px;
+}
+footer li{
+    color: #093708;
+    list-style-type: none;
+}
+#home .intro{
+    color: white;
+}
+#home .intro .col-md-8{
+    background-color: 0;
+
+    border-radius: 20px;
+}
+#home h1{
+    color: wheat;
+}
+#home{
+    background-image: url(../img/homebg-min.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#home .intro .col-md-8{
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+main{
+    text-align: center;
+}
+
+.modal-header, .modal-footer{
+    background-color: #964B00;
+
+
+}
+.modal-body{
+    background-color: #D08F4D;
+}
+.modal-title{
+    color: #093708;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px #093708;
+}
+.copy{
+    color: #093708;
+}
+.blog-img{
+    border: 1px solid #093708;
+    border-radius: 15px;
+    height: 257px;
+
+}
+.sorkizart{
+    text-align: justify;
+}
+.j{
+    float: right;
+}
+.frame {
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }

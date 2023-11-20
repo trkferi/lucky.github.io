@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog</title>
+</head>
+<body>
+    <header>
+
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/clover.svg" class="brand" alt="">Lucky</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Kezdőlap</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="kavefajtak.html">Kávéfajták</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="sutemenyek.html">Sütemények</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="banner">
+
+      </div>
+
+
+    </header>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <h1 class="m-5">Lucky - Blog</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img/kavezo02-min.jpg" class="img-fluid blog-img" alt="">
+          </div>
+          <div class="col-md-8">
+            <h2 class="mt-4">Magyarország legjobb kávézója</h2>
+            <p class="sorkizart">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe exercitationem sapiente veniam, aliquam nam rerum, possimus porro, tenetur repellendus eum assumenda? Repellendus ea, quisquam odit amet earum quam iste iusto, ut nostrum sequi quibusdam illum nihil neque deleniti sunt pariatur debitis quae quis perferendis beatae fuga doloremque! Distinctio quam culpa voluptatum fugit, laborum ducimus accusantium dolor pariatur enim sunt corporis ab eaque quo voluptate quis perspiciatis similique sapiente incidunt cupiditate eos exercitationem magni iure fuga. Molestiae saepe ducimus, harum iste molestias perspiciatis eaque voluptate, totam unde magnam enim. Maiores, error asperiores. Tempora adipisci voluptatum saepe unde, placeat reprehenderit tenetur quam?</p>
+            <button type="button" class="btn btn-outline-secondary "><a href="article/legjobbkavezo.html">Elolvasom</a></button>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <h2 class="mt-4">Reggeli ráhangolódás</h2>
+          <p class="sorkizart">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe exercitationem sapiente veniam, aliquam nam rerum, possimus porro, tenetur repellendus eum assumenda? Repellendus ea, quisquam odit amet earum quam iste iusto, ut nostrum sequi quibusdam illum nihil neque deleniti sunt pariatur debitis quae quis perferendis beatae fuga doloremque! Distinctio quam culpa voluptatum fugit, laborum ducimus accusantium dolor pariatur enim sunt corporis ab eaque quo voluptate quis perspiciatis similique sapiente incidunt cupiditate eos exercitationem magni iure fuga. Molestiae saepe ducimus, harum iste molestias perspiciatis eaque voluptate, totam unde magnam enim. Maiores, error asperiores. Tempora adipisci voluptatum saepe unde, placeat reprehenderit tenetur quam?</p>
+          <button type="button" class="btn btn-outline-secondary "><a href="article/reggeli.html">Elolvasom</a></button>
+        </div>
+        <div class="col-md-4">
+          <img src="img/morning coffee-min.jpg" class="img-fluid blog-img j" alt="">
+        </div>
+    </div>
+
+    
+    </div>
+    
+<footer class="mt-5">
+  <div class="row">
+    <div class="col-md-4 offset-1">
+      <h3>Elérhetőségek</h2>
+        <ul>
+          <li><img src="img/placeholder_1.svg" alt=""> 6900, Makó Posta utca 4-6</li>
+          <li><img src="img/email_1.svg" alt=""> luckycofe@gmail.com</li>
+          <li><img src="img/phone-call_1.svg" alt=""> +36 (30) 248 1289</li>
+        </ul>
+    </div>
+    <div class="col-md-4 offset-1">
+      <h3>Feliratkozás hírlevélre</h2>
+      <form action="">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" id="email" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button" onclick="Feliratkozás()">Feliratkozás</button>
+          </div>
+        </div>
+      </form>
+      <p class="copy">&copy; Lucky Kft. 2023</p>
+    </div>
+  </div>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script>
+  function Feliratkozás()
+  {
+    var email=document.getElementById("email").value;
+    if(email=="")
+    {
+      alert("Kérem adja meg az email címét!")
+
+    }
+    else
+    {
+      alert("Sikeresen feliratkozott " + email)
+
+
+    }
+
+  }
+
+</script>
+</body>
+</html>
